@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A4A202947D2BDB245DA827B /* libPods-JAPopViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 646D771EF47FBA5247B5D27E /* libPods-JAPopViewDemo.a */; };
+		969429B91F1B85E3006C5511 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 969429B81F1B85E3006C5511 /* main.m */; };
+		969429BC1F1B85E3006C5511 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 969429BB1F1B85E3006C5511 /* AppDelegate.m */; };
+		969429BF1F1B85E3006C5511 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 969429BE1F1B85E3006C5511 /* ViewController.m */; };
+		969429C21F1B85E3006C5511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969429C01F1B85E3006C5511 /* Main.storyboard */; };
+		969429C41F1B85E3006C5511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969429C31F1B85E3006C5511 /* Assets.xcassets */; };
+		969429C71F1B85E3006C5511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969429C51F1B85E3006C5511 /* LaunchScreen.storyboard */; };
+		969429D21F1B85E4006C5511 /* JAPopViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 969429D11F1B85E4006C5511 /* JAPopViewDemoTests.m */; };
+		969429DD1F1B85E4006C5511 /* JAPopViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 969429DC1F1B85E4006C5511 /* JAPopViewDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		969429CE1F1B85E4006C5511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 969429AC1F1B85E3006C5511 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 969429B31F1B85E3006C5511;
+			remoteInfo = JAPopViewDemo;
+		};
+		969429D91F1B85E4006C5511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 969429AC1F1B85E3006C5511 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 969429B31F1B85E3006C5511;
+			remoteInfo = JAPopViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		646D771EF47FBA5247B5D27E /* libPods-JAPopViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JAPopViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		969429B41F1B85E3006C5511 /* JAPopViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAPopViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		969429B81F1B85E3006C5511 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		969429BA1F1B85E3006C5511 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		969429BB1F1B85E3006C5511 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		969429BD1F1B85E3006C5511 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		969429BE1F1B85E3006C5511 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		969429C11F1B85E3006C5511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		969429C31F1B85E3006C5511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		969429C61F1B85E3006C5511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		969429C81F1B85E3006C5511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		969429CD1F1B85E4006C5511 /* JAPopViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAPopViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		969429D11F1B85E4006C5511 /* JAPopViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAPopViewDemoTests.m; sourceTree = "<group>"; };
+		969429D31F1B85E4006C5511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		969429D81F1B85E4006C5511 /* JAPopViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAPopViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		969429DC1F1B85E4006C5511 /* JAPopViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAPopViewDemoUITests.m; sourceTree = "<group>"; };
+		969429DE1F1B85E4006C5511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7D1E58215F6045D16AFE9BC /* Pods-JAPopViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAPopViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JAPopViewDemo/Pods-JAPopViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F31D4BB0D2767AB9A842F9CD /* Pods-JAPopViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAPopViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JAPopViewDemo/Pods-JAPopViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		969429B11F1B85E3006C5511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4A202947D2BDB245DA827B /* libPods-JAPopViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969429CA1F1B85E4006C5511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969429D51F1B85E4006C5511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B8625E09057213AF8605C4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7D1E58215F6045D16AFE9BC /* Pods-JAPopViewDemo.debug.xcconfig */,
+				F31D4BB0D2767AB9A842F9CD /* Pods-JAPopViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		969429AB1F1B85E3006C5511 = {
+			isa = PBXGroup;
+			children = (
+				969429B61F1B85E3006C5511 /* JAPopViewDemo */,
+				969429D01F1B85E4006C5511 /* JAPopViewDemoTests */,
+				969429DB1F1B85E4006C5511 /* JAPopViewDemoUITests */,
+				969429B51F1B85E3006C5511 /* Products */,
+				5B8625E09057213AF8605C4B /* Pods */,
+				B4C526073FD926B7AA91CD28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		969429B51F1B85E3006C5511 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				969429B41F1B85E3006C5511 /* JAPopViewDemo.app */,
+				969429CD1F1B85E4006C5511 /* JAPopViewDemoTests.xctest */,
+				969429D81F1B85E4006C5511 /* JAPopViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		969429B61F1B85E3006C5511 /* JAPopViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				969429BA1F1B85E3006C5511 /* AppDelegate.h */,
+				969429BB1F1B85E3006C5511 /* AppDelegate.m */,
+				969429BD1F1B85E3006C5511 /* ViewController.h */,
+				969429BE1F1B85E3006C5511 /* ViewController.m */,
+				969429C01F1B85E3006C5511 /* Main.storyboard */,
+				969429C31F1B85E3006C5511 /* Assets.xcassets */,
+				969429C51F1B85E3006C5511 /* LaunchScreen.storyboard */,
+				969429C81F1B85E3006C5511 /* Info.plist */,
+				969429B71F1B85E3006C5511 /* Supporting Files */,
+			);
+			path = JAPopViewDemo;
+			sourceTree = "<group>";
+		};
+		969429B71F1B85E3006C5511 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				969429B81F1B85E3006C5511 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		969429D01F1B85E4006C5511 /* JAPopViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				969429D11F1B85E4006C5511 /* JAPopViewDemoTests.m */,
+				969429D31F1B85E4006C5511 /* Info.plist */,
+			);
+			path = JAPopViewDemoTests;
+			sourceTree = "<group>";
+		};
+		969429DB1F1B85E4006C5511 /* JAPopViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				969429DC1F1B85E4006C5511 /* JAPopViewDemoUITests.m */,
+				969429DE1F1B85E4006C5511 /* Info.plist */,
+			);
+			path = JAPopViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		B4C526073FD926B7AA91CD28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				646D771EF47FBA5247B5D27E /* libPods-JAPopViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		969429B31F1B85E3006C5511 /* JAPopViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969429E11F1B85E4006C5511 /* Build configuration list for PBXNativeTarget "JAPopViewDemo" */;
+			buildPhases = (
+				3025D5B801CB81B02304DA28 /* [CP] Check Pods Manifest.lock */,
+				969429B01F1B85E3006C5511 /* Sources */,
+				969429B11F1B85E3006C5511 /* Frameworks */,
+				969429B21F1B85E3006C5511 /* Resources */,
+				5BD2ED087F81F8D23238F59A /* [CP] Embed Pods Frameworks */,
+				6BEB41733A9A73A12BA10218 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JAPopViewDemo;
+			productName = JAPopViewDemo;
+			productReference = 969429B41F1B85E3006C5511 /* JAPopViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		969429CC1F1B85E4006C5511 /* JAPopViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969429E41F1B85E4006C5511 /* Build configuration list for PBXNativeTarget "JAPopViewDemoTests" */;
+			buildPhases = (
+				969429C91F1B85E4006C5511 /* Sources */,
+				969429CA1F1B85E4006C5511 /* Frameworks */,
+				969429CB1F1B85E4006C5511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				969429CF1F1B85E4006C5511 /* PBXTargetDependency */,
+			);
+			name = JAPopViewDemoTests;
+			productName = JAPopViewDemoTests;
+			productReference = 969429CD1F1B85E4006C5511 /* JAPopViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		969429D71F1B85E4006C5511 /* JAPopViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969429E71F1B85E4006C5511 /* Build configuration list for PBXNativeTarget "JAPopViewDemoUITests" */;
+			buildPhases = (
+				969429D41F1B85E4006C5511 /* Sources */,
+				969429D51F1B85E4006C5511 /* Frameworks */,
+				969429D61F1B85E4006C5511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				969429DA1F1B85E4006C5511 /* PBXTargetDependency */,
+			);
+			name = JAPopViewDemoUITests;
+			productName = JAPopViewDemoUITests;
+			productReference = 969429D81F1B85E4006C5511 /* JAPopViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		969429AC1F1B85E3006C5511 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Jason;
+				TargetAttributes = {
+					969429B31F1B85E3006C5511 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZEY359R7A4;
+						ProvisioningStyle = Automatic;
+					};
+					969429CC1F1B85E4006C5511 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZEY359R7A4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 969429B31F1B85E3006C5511;
+					};
+					969429D71F1B85E4006C5511 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZEY359R7A4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 969429B31F1B85E3006C5511;
+					};
+				};
+			};
+			buildConfigurationList = 969429AF1F1B85E3006C5511 /* Build configuration list for PBXProject "JAPopViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 969429AB1F1B85E3006C5511;
+			productRefGroup = 969429B51F1B85E3006C5511 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				969429B31F1B85E3006C5511 /* JAPopViewDemo */,
+				969429CC1F1B85E4006C5511 /* JAPopViewDemoTests */,
+				969429D71F1B85E4006C5511 /* JAPopViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		969429B21F1B85E3006C5511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969429C71F1B85E3006C5511 /* LaunchScreen.storyboard in Resources */,
+				969429C41F1B85E3006C5511 /* Assets.xcassets in Resources */,
+				969429C21F1B85E3006C5511 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969429CB1F1B85E4006C5511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969429D61F1B85E4006C5511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3025D5B801CB81B02304DA28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5BD2ED087F81F8D23238F59A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JAPopViewDemo/Pods-JAPopViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BEB41733A9A73A12BA10218 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JAPopViewDemo/Pods-JAPopViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		969429B01F1B85E3006C5511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969429BF1F1B85E3006C5511 /* ViewController.m in Sources */,
+				969429BC1F1B85E3006C5511 /* AppDelegate.m in Sources */,
+				969429B91F1B85E3006C5511 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969429C91F1B85E4006C5511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969429D21F1B85E4006C5511 /* JAPopViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969429D41F1B85E4006C5511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969429DD1F1B85E4006C5511 /* JAPopViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		969429CF1F1B85E4006C5511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 969429B31F1B85E3006C5511 /* JAPopViewDemo */;
+			targetProxy = 969429CE1F1B85E4006C5511 /* PBXContainerItemProxy */;
+		};
+		969429DA1F1B85E4006C5511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 969429B31F1B85E3006C5511 /* JAPopViewDemo */;
+			targetProxy = 969429D91F1B85E4006C5511 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		969429C01F1B85E3006C5511 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				969429C11F1B85E3006C5511 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		969429C51F1B85E3006C5511 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				969429C61F1B85E3006C5511 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		969429DF1F1B85E4006C5511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		969429E01F1B85E4006C5511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		969429E21F1B85E4006C5511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7D1E58215F6045D16AFE9BC /* Pods-JAPopViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZEY359R7A4;
+				INFOPLIST_FILE = JAPopViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coder.JAPopViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		969429E31F1B85E4006C5511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F31D4BB0D2767AB9A842F9CD /* Pods-JAPopViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZEY359R7A4;
+				INFOPLIST_FILE = JAPopViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coder.JAPopViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		969429E51F1B85E4006C5511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZEY359R7A4;
+				INFOPLIST_FILE = JAPopViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coder.JAPopViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JAPopViewDemo.app/JAPopViewDemo";
+			};
+			name = Debug;
+		};
+		969429E61F1B85E4006C5511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZEY359R7A4;
+				INFOPLIST_FILE = JAPopViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coder.JAPopViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JAPopViewDemo.app/JAPopViewDemo";
+			};
+			name = Release;
+		};
+		969429E81F1B85E4006C5511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZEY359R7A4;
+				INFOPLIST_FILE = JAPopViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coder.JAPopViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JAPopViewDemo;
+			};
+			name = Debug;
+		};
+		969429E91F1B85E4006C5511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZEY359R7A4;
+				INFOPLIST_FILE = JAPopViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coder.JAPopViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JAPopViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		969429AF1F1B85E3006C5511 /* Build configuration list for PBXProject "JAPopViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969429DF1F1B85E4006C5511 /* Debug */,
+				969429E01F1B85E4006C5511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		969429E11F1B85E4006C5511 /* Build configuration list for PBXNativeTarget "JAPopViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969429E21F1B85E4006C5511 /* Debug */,
+				969429E31F1B85E4006C5511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		969429E41F1B85E4006C5511 /* Build configuration list for PBXNativeTarget "JAPopViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969429E51F1B85E4006C5511 /* Debug */,
+				969429E61F1B85E4006C5511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		969429E71F1B85E4006C5511 /* Build configuration list for PBXNativeTarget "JAPopViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969429E81F1B85E4006C5511 /* Debug */,
+				969429E91F1B85E4006C5511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 969429AC1F1B85E3006C5511 /* Project object */;
+}

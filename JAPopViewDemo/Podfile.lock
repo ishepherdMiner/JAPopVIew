@@ -1,0 +1,16 @@
+PODS:
+  - JAPopView (0.0.1)
+
+DEPENDENCIES:
+  - JAPopView (from `../`)
+
+EXTERNAL SOURCES:
+  JAPopView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JAPopView: 21e750e866f242025ee66b403c7a29bef3d71100
+
+PODFILE CHECKSUM: 0a4f7c7eb0f08708d026d7758dab14764ecc2fe3
+
+COCOAPODS: 1.2.1

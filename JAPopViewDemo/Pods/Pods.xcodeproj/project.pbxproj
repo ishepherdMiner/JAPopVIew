@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00495F6FB66471ACD9D5641D868C28DD /* JAPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BF9F4D7B2B98BF7C13BB04ECB0ECA4 /* JAPopView.m */; };
+		0F1BF671448E82EA1C61A42EA08F87CF /* JAPopView.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E5632906EFFB7637FCD50A20907EAB /* JAPopView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C0F34FAC870D1DF0299B4B936018134 /* JAPopView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F61F6DDBADAEEA930F1DBEEA7D565D9A /* JAPopView-dummy.m */; };
+		89DD7AA629FE5A6120A7D9888C6EDA04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+		A17F1089718C2B8D648EEDEE2E4B8A16 /* Pods-JAPopViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB00C09F4D08DB9CA12B2FA79A679F3 /* Pods-JAPopViewDemo-dummy.m */; };
+		B025755F760C558EEFD454EEFBB4DB37 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */; };
+		F18F2BA3BB4E37EE0D87ADD29F17044C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3917A50EB224EEDBC66971700D698782 /* UIKit.framework */; };
+		F3A3B46E9D3C2DFEE186ABB214CA1397 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		553470B4CFFA6F3C4E556AAA2AD39D82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C19BA2D5F697A3FD5BA1C33836511DC;
+			remoteInfo = JAPopView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08ABBDDD3D0A260171E7245E90A12B71 /* Pods-JAPopViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JAPopViewDemo-frameworks.sh"; sourceTree = "<group>"; };
+		09578B01CB83F1308BEBDD365808B186 /* Pods-JAPopViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAPopViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E34A5B792E5ED51C9A343E65EF604C9 /* Pods-JAPopViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAPopViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		24BF9F4D7B2B98BF7C13BB04ECB0ECA4 /* JAPopView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JAPopView.m; sourceTree = "<group>"; };
+		29D5152F0A1FFA893BA4A80FDAB6980A /* JAPopView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JAPopView.xcconfig; sourceTree = "<group>"; };
+		2AB00C09F4D08DB9CA12B2FA79A679F3 /* Pods-JAPopViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JAPopViewDemo-dummy.m"; sourceTree = "<group>"; };
+		30375A36401FF8F93CB823A6F8B7301C /* libPods-JAPopViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JAPopViewDemo.a"; path = "libPods-JAPopViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3308B8E00547F9B0368F8B7E9D604580 /* Pods-JAPopViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JAPopViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3917A50EB224EEDBC66971700D698782 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5493BCD82969AD63B0C6920B6F93CD6D /* Pods-JAPopViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JAPopViewDemo-resources.sh"; sourceTree = "<group>"; };
+		90F2555D349B9DC7F8077974EB26B4B6 /* libJAPopView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJAPopView.a; path = libJAPopView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C9E5632906EFFB7637FCD50A20907EAB /* JAPopView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JAPopView.h; sourceTree = "<group>"; };
+		E86BDA34119B4181185523B62EAB142D /* JAPopView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JAPopView-prefix.pch"; sourceTree = "<group>"; };
+		F61F6DDBADAEEA930F1DBEEA7D565D9A /* JAPopView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JAPopView-dummy.m"; sourceTree = "<group>"; };
+		FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		FEAE847FC018BA1574243A4FAAA3A289 /* Pods-JAPopViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAPopViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D61BCF497736E1A80805D9BF46A19E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DD7AA629FE5A6120A7D9888C6EDA04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F048CFC387C8BAD5A463F7317CB15B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A3B46E9D3C2DFEE186ABB214CA1397 /* Foundation.framework in Frameworks */,
+				B025755F760C558EEFD454EEFBB4DB37 /* QuartzCore.framework in Frameworks */,
+				F18F2BA3BB4E37EE0D87ADD29F17044C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93A319F2C1969B7AA0B17444A3F8BA22 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F139C06C48B757F3A6EF2C7F8024845 /* JAPopView */ = {
+			isa = PBXGroup;
+			children = (
+				E83736E7F6CE78ABCAD72777653DDAD3 /* JAPopView */,
+				28CD55B761AED7EAFE6988F3AF944B89 /* Support Files */,
+			);
+			name = JAPopView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		28CD55B761AED7EAFE6988F3AF944B89 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29D5152F0A1FFA893BA4A80FDAB6980A /* JAPopView.xcconfig */,
+				F61F6DDBADAEEA930F1DBEEA7D565D9A /* JAPopView-dummy.m */,
+				E86BDA34119B4181185523B62EAB142D /* JAPopView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "JAPopViewDemo/Pods/Target Support Files/JAPopView";
+			sourceTree = "<group>";
+		};
+		7426BE56B6D588F37EC60BC6F5DF5792 /* Pods-JAPopViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3308B8E00547F9B0368F8B7E9D604580 /* Pods-JAPopViewDemo-acknowledgements.markdown */,
+				09578B01CB83F1308BEBDD365808B186 /* Pods-JAPopViewDemo-acknowledgements.plist */,
+				2AB00C09F4D08DB9CA12B2FA79A679F3 /* Pods-JAPopViewDemo-dummy.m */,
+				08ABBDDD3D0A260171E7245E90A12B71 /* Pods-JAPopViewDemo-frameworks.sh */,
+				5493BCD82969AD63B0C6920B6F93CD6D /* Pods-JAPopViewDemo-resources.sh */,
+				1E34A5B792E5ED51C9A343E65EF604C9 /* Pods-JAPopViewDemo.debug.xcconfig */,
+				FEAE847FC018BA1574243A4FAAA3A289 /* Pods-JAPopViewDemo.release.xcconfig */,
+			);
+			name = "Pods-JAPopViewDemo";
+			path = "Target Support Files/Pods-JAPopViewDemo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C9DEF9E1F8E48B4DC921B16D525F4557 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				CFEA8DAD6FD9444E7321D912F89D756C /* Products */,
+				B42A292E0920AB9B3759338A2C56230E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93A319F2C1969B7AA0B17444A3F8BA22 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */,
+				FB7751D4D791D1183FB66D3CCA52CD8E /* QuartzCore.framework */,
+				3917A50EB224EEDBC66971700D698782 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B42A292E0920AB9B3759338A2C56230E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7426BE56B6D588F37EC60BC6F5DF5792 /* Pods-JAPopViewDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C9DEF9E1F8E48B4DC921B16D525F4557 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F139C06C48B757F3A6EF2C7F8024845 /* JAPopView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CFEA8DAD6FD9444E7321D912F89D756C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90F2555D349B9DC7F8077974EB26B4B6 /* libJAPopView.a */,
+				30375A36401FF8F93CB823A6F8B7301C /* libPods-JAPopViewDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E83736E7F6CE78ABCAD72777653DDAD3 /* JAPopView */ = {
+			isa = PBXGroup;
+			children = (
+				C9E5632906EFFB7637FCD50A20907EAB /* JAPopView.h */,
+				24BF9F4D7B2B98BF7C13BB04ECB0ECA4 /* JAPopView.m */,
+			);
+			name = JAPopView;
+			path = JAPopView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		306A78442896430A0C27D272A5C885BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1BF671448E82EA1C61A42EA08F87CF /* JAPopView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		42C8B9D05B64587234428DBB2EDDBC57 /* Pods-JAPopViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5DCDB6E11D74BEC58A25A6F546DFD0D /* Build configuration list for PBXNativeTarget "Pods-JAPopViewDemo" */;
+			buildPhases = (
+				4E0F7E3E64C18AFA427F7635A2BADDE8 /* Sources */,
+				3D61BCF497736E1A80805D9BF46A19E8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C66A31EF433940FA77A6D72C4F6D9EE3 /* PBXTargetDependency */,
+			);
+			name = "Pods-JAPopViewDemo";
+			productName = "Pods-JAPopViewDemo";
+			productReference = 30375A36401FF8F93CB823A6F8B7301C /* libPods-JAPopViewDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7C19BA2D5F697A3FD5BA1C33836511DC /* JAPopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C3407257B986AB172E5FD6B20A9D4D /* Build configuration list for PBXNativeTarget "JAPopView" */;
+			buildPhases = (
+				8E7014DC4EB34D0F8B5812350E8C86E1 /* Sources */,
+				F048CFC387C8BAD5A463F7317CB15B47 /* Frameworks */,
+				306A78442896430A0C27D272A5C885BD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JAPopView;
+			productName = JAPopView;
+			productReference = 90F2555D349B9DC7F8077974EB26B4B6 /* libJAPopView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CFEA8DAD6FD9444E7321D912F89D756C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C19BA2D5F697A3FD5BA1C33836511DC /* JAPopView */,
+				42C8B9D05B64587234428DBB2EDDBC57 /* Pods-JAPopViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E0F7E3E64C18AFA427F7635A2BADDE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17F1089718C2B8D648EEDEE2E4B8A16 /* Pods-JAPopViewDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7014DC4EB34D0F8B5812350E8C86E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0F34FAC870D1DF0299B4B936018134 /* JAPopView-dummy.m in Sources */,
+				00495F6FB66471ACD9D5641D868C28DD /* JAPopView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C66A31EF433940FA77A6D72C4F6D9EE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JAPopView;
+			target = 7C19BA2D5F697A3FD5BA1C33836511DC /* JAPopView */;
+			targetProxy = 553470B4CFFA6F3C4E556AAA2AD39D82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18038F689948DA2D1550328C86D1B8B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D5152F0A1FFA893BA4A80FDAB6980A /* JAPopView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JAPopView/JAPopView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3890D7C92DE120C2BA762135796CFA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		587B8ECC28E3A9FF4796C121925DC113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6ECE537AAFA14E565C13795BFB6F70D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D5152F0A1FFA893BA4A80FDAB6980A /* JAPopView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JAPopView/JAPopView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		843CFA22E5EB250A69760F4524AAA96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E34A5B792E5ED51C9A343E65EF604C9 /* Pods-JAPopViewDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		93A345BC038751AD781A4D2E8F21C35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEAE847FC018BA1574243A4FAAA3A289 /* Pods-JAPopViewDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587B8ECC28E3A9FF4796C121925DC113 /* Debug */,
+				3890D7C92DE120C2BA762135796CFA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C3407257B986AB172E5FD6B20A9D4D /* Build configuration list for PBXNativeTarget "JAPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECE537AAFA14E565C13795BFB6F70D4 /* Debug */,
+				18038F689948DA2D1550328C86D1B8B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5DCDB6E11D74BEC58A25A6F546DFD0D /* Build configuration list for PBXNativeTarget "Pods-JAPopViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843CFA22E5EB250A69760F4524AAA96E /* Debug */,
+				93A345BC038751AD781A4D2E8F21C35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
