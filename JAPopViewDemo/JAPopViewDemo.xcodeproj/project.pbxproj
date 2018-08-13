@@ -239,13 +239,13 @@
 					};
 					969429CC1F1B85E4006C5511 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = ZEY359R7A4;
+						DevelopmentTeam = W49XAY8UZ2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 969429B31F1B85E3006C5511;
 					};
 					969429D71F1B85E4006C5511 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = ZEY359R7A4;
+						DevelopmentTeam = W49XAY8UZ2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 969429B31F1B85E3006C5511;
 					};
@@ -530,7 +530,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = ZEY359R7A4;
+				DEVELOPMENT_TEAM = W49XAY8UZ2;
 				INFOPLIST_FILE = JAPopViewDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coder.JAPopViewDemoTests;
@@ -543,7 +543,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = ZEY359R7A4;
+				DEVELOPMENT_TEAM = W49XAY8UZ2;
 				INFOPLIST_FILE = JAPopViewDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coder.JAPopViewDemoTests;
@@ -555,7 +555,7 @@
 		969429E81F1B85E4006C5511 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = ZEY359R7A4;
+				DEVELOPMENT_TEAM = W49XAY8UZ2;
 				INFOPLIST_FILE = JAPopViewDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coder.JAPopViewDemoUITests;
@@ -567,7 +567,7 @@
 		969429E91F1B85E4006C5511 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = ZEY359R7A4;
+				DEVELOPMENT_TEAM = W49XAY8UZ2;
 				INFOPLIST_FILE = JAPopViewDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coder.JAPopViewDemoUITests;
