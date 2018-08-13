@@ -19,7 +19,7 @@ CGFloat popViewWidth = 280;
 CGFloat popViewContentHeight = 100;
 
 /// 弹窗上间距
-CGFloat popViewTop = 230;
+CGFloat popViewTop = 180;
 
 /// 弹窗最小上间距
 CGFloat popViewMinTop = 64;

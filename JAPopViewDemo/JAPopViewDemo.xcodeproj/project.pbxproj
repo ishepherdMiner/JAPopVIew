@@ -234,7 +234,7 @@
 				TargetAttributes = {
 					969429B31F1B85E3006C5511 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = ZEY359R7A4;
+						DevelopmentTeam = GN6U43MJ7T;
 						ProvisioningStyle = Automatic;
 					};
 					969429CC1F1B85E4006C5511 = {
@@ -503,7 +503,7 @@
 			baseConfigurationReference = A7D1E58215F6045D16AFE9BC /* Pods-JAPopViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZEY359R7A4;
+				DEVELOPMENT_TEAM = GN6U43MJ7T;
 				INFOPLIST_FILE = JAPopViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -517,7 +517,7 @@
 			baseConfigurationReference = F31D4BB0D2767AB9A842F9CD /* Pods-JAPopViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZEY359R7A4;
+				DEVELOPMENT_TEAM = GN6U43MJ7T;
 				INFOPLIST_FILE = JAPopViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -595,6 +595,7 @@
 				969429E31F1B85E4006C5511 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		969429E41F1B85E4006C5511 /* Build configuration list for PBXNativeTarget "JAPopViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +604,7 @@
 				969429E61F1B85E4006C5511 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		969429E71F1B85E4006C5511 /* Build configuration list for PBXNativeTarget "JAPopViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +613,7 @@
 				969429E91F1B85E4006C5511 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
